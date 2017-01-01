@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRunConfiguration name="ローカル テストの実行" id="1bd8b897-fe8b-4e02-9640-f8bdddcd6e92" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>これは、ローカル テストの実行に対する既定のテストの実行構成です。</Description>
+  <Deployment>
+    <DeploymentItem filename="rcs590\rcs.exe" />
+    <DeploymentItem filename="rcs590\merge.exe" />
+    <DeploymentItem filename="rcs590\cygiconv-2.dll" />
+    <DeploymentItem filename="rcs590\cygintl-8.dll" />
+    <DeploymentItem filename="rcs590\iconv.exe" />
+    <DeploymentItem filename="rcs590\cygwin1.dll" />
+    <DeploymentItem filename="rcs590\cyggcc_s-1.dll" />
+    <DeploymentItem filename="rcs590\ident.exe" />
+    <DeploymentItem filename="rcs590\diff.exe" />
+    <DeploymentItem filename="rcs590\rcs.bat" />
+  </Deployment>
+  <TestTypeSpecific />
+</TestRunConfiguration>

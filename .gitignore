@@ -1,0 +1,13 @@
+/WinRcs/bin
+/WinRcs/obj
+/WinRcs/WinRCS.csproj.user
+/TestFolder
+/WinRCS.smproj
+/TestWinRcs/bin
+/TestWinRcs/obj
+/TestWinRcs/*.user
+/TreeGridView/bin
+/TreeGridView/obj
+/TreeGridView/*.user
+/SetupWinRcs/Debug
+/SetupWinRcs/Release

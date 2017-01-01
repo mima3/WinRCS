@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53BCDE9A-DB13-4FB8-B067-EB503BB18012}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		WinRcs.vsmdi = WinRcs.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinRcs", "WinRcs\WinRcs.csproj", "{7E29123E-4D0A-48C8-BF14-644CA2119DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandableGridView", "TreeGridView\ExpandableGridView.csproj", "{2EFE526F-79B3-49BC-9575-A7B258C59BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWinRcs", "TestWinRcs\TestWinRcs.csproj", "{253521D8-21B9-4FB3-808B-D50D7DBFDAB0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupWinRcs", "SetupWinRcs\SetupWinRCS.vdproj", "{A5C83B7F-21E7-435B-9D14-3F1EB68362CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E29123E-4D0A-48C8-BF14-644CA2119DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E29123E-4D0A-48C8-BF14-644CA2119DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E29123E-4D0A-48C8-BF14-644CA2119DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E29123E-4D0A-48C8-BF14-644CA2119DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFE526F-79B3-49BC-9575-A7B258C59BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFE526F-79B3-49BC-9575-A7B258C59BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFE526F-79B3-49BC-9575-A7B258C59BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFE526F-79B3-49BC-9575-A7B258C59BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253521D8-21B9-4FB3-808B-D50D7DBFDAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253521D8-21B9-4FB3-808B-D50D7DBFDAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253521D8-21B9-4FB3-808B-D50D7DBFDAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253521D8-21B9-4FB3-808B-D50D7DBFDAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C83B7F-21E7-435B-9D14-3F1EB68362CC}.Debug|Any CPU.ActiveCfg = Debug
+		{A5C83B7F-21E7-435B-9D14-3F1EB68362CC}.Debug|Any CPU.Build.0 = Debug
+		{A5C83B7F-21E7-435B-9D14-3F1EB68362CC}.Release|Any CPU.ActiveCfg = Release
+		{A5C83B7F-21E7-435B-9D14-3F1EB68362CC}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WinRcs.vsmdi
+	EndGlobalSection
+EndGlobal

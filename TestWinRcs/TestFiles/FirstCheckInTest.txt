@@ -1,0 +1,16 @@
+RCS file: RCS/$FILE_NAME,v
+Working file: $FILE_NAME
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;     selected revisions: 1
+description:
+first commit
+----------------------------
+revision 1.1
+date: 2014/08/08 11:24:03;  author: $USER_NAME;  state: Exp;
+Initial revision
+=============================================================================
